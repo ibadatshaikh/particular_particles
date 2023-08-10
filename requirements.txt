@@ -226,11 +226,6 @@ PyJWT
 pylint
 pylint-venv
 pyls-spyder
-pyobjc-core
-pyobjc-framework-Cocoa
-pyobjc-framework-CoreServices
-pyobjc-framework-FSEvents
-pyodbc
 pyOpenSSL
 pyparsing
 PyQt5-sip
