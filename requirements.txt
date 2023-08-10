@@ -261,7 +261,6 @@ rfc3986-validator
 rope
 Rtree
 ruamel.yaml
-ruamel-yaml-conda
 s3fs
 sacremoses
 scikit-image
