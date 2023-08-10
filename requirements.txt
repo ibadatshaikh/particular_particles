@@ -47,17 +47,6 @@ clyent
 colorama
 colorcet
 comm
-conda
-conda-build
-conda-content-trust
-conda_index
-conda-libmamba-solver
-conda-pack
-conda-package-handling
-conda_package_streaming
-conda-repo-cli
-conda-token
-conda-verify
 constantly
 contourpy
 cookiecutter
