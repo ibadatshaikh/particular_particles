@@ -22,7 +22,6 @@ mock==5.1.0
 numpy
 olefile==0.46
 protobuf==4.24.0
-psycopg==3.1.10
 pylibmc==1.6.3
 pymemcache==4.0.0
 PySide6
