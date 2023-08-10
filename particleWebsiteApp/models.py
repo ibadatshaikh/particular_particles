@@ -8,7 +8,7 @@ class Particle( models.Model ):
 	summary = models.CharField( max_length = 500 )
 	short_summary = models.CharField( max_length = 200 )
 	fun_fact = models.CharField( max_length = 200 )
-	image = models.CharField( max_length = 200 )
+	image_url = models.CharField( max_length = 200 )
 	image_caption = models.CharField( max_length = 100 )
 	image_source = models.CharField( max_length = 500 )
 	def __str__( self ):
