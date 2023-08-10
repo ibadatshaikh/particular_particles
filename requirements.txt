@@ -1,6 +1,6 @@
 attrs==22.1.0
 bpython==0.24
-cffi==1.15.1
+cffi
 ConfigParser==6.0.0
 contextlib2==21.6.0
 cryptography==39.0.1
