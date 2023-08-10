@@ -69,7 +69,6 @@ dj-database-url
 Django
 docstring-to-markdown
 docutils
-dokusan
 entrypoints
 et-xmlfile
 executing
