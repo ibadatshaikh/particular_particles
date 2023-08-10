@@ -11,6 +11,7 @@ dl==0.1.0
 docutils==0.18.1
 docutils==0.18.1
 dj_database_url
+gunicorn
 HTMLParser==0.0.2
 ipdb
 ipython
