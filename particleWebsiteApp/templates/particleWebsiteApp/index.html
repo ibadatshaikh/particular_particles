@@ -119,7 +119,7 @@
         <div class="col">
           <div class="card shadow-sm">
             <a href="{% url 'detail' particle.id %}">
-            <img class="card-img-top" src="{% static {{ particle.image }} %}">
+            <img class="card-img-top" src="{% get_static_prefix %}/{{ particle.image_source }}">
             </a>
             <div class="card-body">
               <p class="card-text">{{ particle.short_summary }}</p>
