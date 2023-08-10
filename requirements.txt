@@ -310,7 +310,6 @@ toml
 tomli
 tomlkit
 toolz
-torch
 tornado
 tqdm
 traitlets
