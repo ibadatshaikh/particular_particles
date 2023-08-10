@@ -13,8 +13,8 @@ docutils==0.18.1
 dj_database_url
 HTMLParser==0.0.2
 ipdb
-ipython==8.12.0
-ipywidgets==8.0.4
+ipython
+ipywidgets
 jnius==1.1.0
 keyring==23.13.1
 lockfile==0.12.2
