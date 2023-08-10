@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+{% load static %}
+  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.115.4">
+    <title>Particular Particles</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">⚛ What is a Particle? 🧪</h1>
+      </div>
+        <p class="lead text-body-secondary">
+        	A particle is a general term used to describe anything which makes up "matter". An example of matter is generally anything which physically takes up space. For example, a glass of juice.
+        	<br><br>
+        	You have a refreshing glass of orange juice. Although this glass seems like
+        	one homogenous liquid, your orange juice is actually made up of a variety of molecules. A single molecule may be described as a <i>particle</i>, since many molecules could create matter such as orange juice. Your orange juice likely has water molecules within it. This is known as "H2O". The chemical symbol "H2O", describes the structure of a water molecule. Two Hydrogen atoms (the "H2" in "H2O") are bonded to one Oxygen atom (the "O" in "H2O"). This means in one water molecule there are three atoms in total, two hydrogen, one oxygen. Many atoms can make up a molecule, so atoms are also <i>particles</i>.
+        </p>
+      <img src = "{% static 'OrangeJuice.png'%}" height = 75%></img>
+      <p class="lead text-body-secondary">
+        	Atoms are made up of smaller particles, <i>subatomic particles</i>. For example, hydrogen contains two key subatomic particles. One subatomic particle is known as a "proton" and it sits in the atoms nucleus, which is the centre of the atom. The nucleus of Hydrogen is being orbitted by one single different subatomic particle, this is known as an "electron".
+			<br><br>
+        	When this is written on the period table you can see a group of letters as the atomic symbol, Hydrogen has just one, 'H'. The two numbers above the atomic symbol describe some information about the number of subatomic particles that make up the atom. The number on the left describes the numbers of protons within an atoms nucleus. This is unique for each element. The number on the right describes the atomic mass of subatomic particles. These numbers are often rounded.
+
+        	Hydrogen has 1 proton. This has 1 atomic mass unit. Therefore we see a 1 on the left and another 1 on the right for Hydrogen on the periodic table. Electrons have negligible mass in comparison to protons, this means their mass is not usually included when totalling the atomic mass.
+      </p>
+      <img src = "{% static 'Oxygen.png'%}" class="mx-auto d-block" style="max-width:50%"></img>
+      <p class="lead text-body-secondary">
+      	In comparison to Hydrogen, Oxygen (above) has 8 protons. Therefore we see an 8 on the left for Oxygen on the periodic table. However, an Oxygen atom also has another subatomic particle within it's nucleus, this is known as a neutron. Generally, a neutron is also considered to have a mass of 1 atomic mass unit. Therefore a 16 is seen on the right hand side to describe the total atomic mass of an Oxygen atom.
+
+      	Now we know about some of the particles which make up an atom, what makes up electrons, protons, and neutrons? When particles haven't been found to contains anything smaller, they are known as <i>fundamental particles</p>. Are electrons, protons, and neutrons fundamental particles? Return to the home page to discover more and learn about subatomic particles.
+      </p>
+      <p>
+      	<a href = "{% url 'index' %}" class="btn btn-success">Back</a>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    </body>
+</html>
